@@ -14,19 +14,24 @@ input[type="text"]:not(:placeholder-shown)~.input-text {
     @apply text-[#454545] transform -translate-y-[22px] -translate-x-2 scale-[0.85];
 }
 
-:where(.css-dev-only-do-not-override-1n7nwfa).ant-carousel .slick-dots-bottom {
-    bottom: 0px;
-    left: 8px;
-}
-
-:where(.css-dev-only-do-not-override-1n7nwfa).ant-carousel .slick-dots {
-    justify-content: start;
-}
 
 .ant-carousel .slick-dots li.slick-active button {
     background: #25A0DA;
 }
 
+.ant-carousel .slick-dots-bottom {
+    left: 8px;
+    bottom: 0px;
+    justify-content: flex-start;
+}
+
+.ant-carousel .slick-dots li button {
+    width: 100%;
+    height: 5px;
+    background: #ffffff;
+    transition: all 0.5s;
+    display: flex;
+}
 
 @layer base {
     .cloud10 {
