@@ -38,8 +38,9 @@ const VidSlider = () => {
                 autoPlay
                 muted
                 loop
-                className="z-0 h-fit w-fit"
+                className="z-0 h-[100vh] w-full object-cover"
               />
+
               <div className="ml-[10px]">
                 <div className="mt-[30px] top-0 absolute z-10 flex justify-between w-screen  ">
                   <div className="flex justify-center items-center gap-2">

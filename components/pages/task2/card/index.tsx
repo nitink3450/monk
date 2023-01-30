@@ -8,16 +8,15 @@ const Card = () => {
         {[...Array(4)].map((item, i) => {
           return (
             <div key={i} className="flex">
-              <div className="flex  mx-auto flex-row w-fit">
-                <div className="h-fit w-fit">
-                  <Image
-                    alt="cake"
-                    src="/images/cake1.png"
-                    height={68}
-                    width={64}
-                  />
-                </div>
-                <div className="p-[12px] text-white font-Poppins bg-black bg-opacity-50">
+              <div className="flex rounded-[5px]  mx-auto flex-row w-fit">
+                <Image
+                  alt="cake"
+                  src="/images/cake1.png"
+                  height={68}
+                  width={64}
+                  className="rounded-[5px_0_0_5px]"
+                />
+                <div className="p-[12px] text-white font-Poppins rounded-[0px_5px_5px_0px] bg-black bg-opacity-50">
                   <p className="font-normal text-[12px]">Monster Energy</p>
                   <p className="font-normal text-[10px]">500gm</p>
                   <div className="font-normal flex flex-row relative gap-3 w-[190px] text-[12px]">
