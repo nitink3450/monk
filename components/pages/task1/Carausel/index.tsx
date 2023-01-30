@@ -12,7 +12,7 @@ const CarauselComp = () => {
   };
   return (
     <>
-      <Carousel autoplay>
+      <Carousel autoplay className="vid">
         {[...Array(3)].map((item: any, i: any) => {
           return (
             <div key={i} className="">

@@ -6,7 +6,7 @@ const BtnWrapper = ({ children }: any) => {
     <>
       <motion.div
         whileHover={{ scale: "1.02" }}
-        whileTap={{ scale: "0.98" }}
+        whileTap={{ scale: "0.94" }}
         transition={{
           duration: 3,
           ease: "easeInOut",

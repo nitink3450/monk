@@ -15,24 +15,29 @@ input[type="text"]:not(:placeholder-shown)~.input-text {
 }
 
 
-.ant-carousel .slick-dots li.slick-active button {
+.vid .slick-dots li.slick-active button {
     background: #25A0DA;
 }
 
-.ant-carousel .slick-dots-bottom {
+.vid .slick-dots-bottom {
     left: 8px;
     bottom: 0px;
     justify-content: flex-start;
 }
 
-.ant-carousel .slick-dots li button {
+
+.vid .slick-dots li button {
     width: 100%;
     height: 5px;
     background: #ffffff;
     transition: all 0.5s;
     display: flex;
 }
+.card .slick-dots li button {
+    display: none;
+}
 
+ 
 @layer base {
     .cloud10 {
         animation: float-clouds 10s linear infinite;
