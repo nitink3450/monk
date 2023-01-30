@@ -22,7 +22,7 @@ const VidSlider = () => {
     vertical: true,
     verticalSwiping: true,
   };
-  
+
   return (
     <>
       <Slider className=" h-fit overflow-hidden " {...settings}>
@@ -89,8 +89,8 @@ const VidSlider = () => {
                     <BtnWrapper>
                       <div className="bg-[#a29d95] bg-opacity-30 h-[36px] w-[36px] rounded-[8px] cursor-pointer flex justify-center items-center">
                         <Image
-                          alt="h"
-                          src="/icons/chat.png"
+                          alt="chat"
+                          src="/icons/Chat.png"
                           height={20}
                           width={20}
                         />
@@ -101,7 +101,7 @@ const VidSlider = () => {
                   <BtnWrapper>
                     <div className="bg-[#a29d95] bg-opacity-30 h-[36px] w-[36px] rounded-[8px] cursor-pointer flex justify-center items-center">
                       <Image
-                        alt="h"
+                        alt="logout"
                         src="/icons/Logout.png"
                         height={20}
                         width={20}

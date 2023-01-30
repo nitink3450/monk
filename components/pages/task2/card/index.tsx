@@ -7,14 +7,11 @@ const Card = () => {
       <Carousel autoplay className="card bottom-[150px] absolute z-10 ">
         {[...Array(4)].map((item, i) => {
           return (
-            <div
-              key={i}
-              className="flex"
-            >
+            <div key={i} className="flex">
               <div className="flex  mx-auto flex-row w-fit">
                 <div className="h-fit w-fit">
                   <Image
-                    alt="h"
+                    alt="cake"
                     src="/images/cake1.png"
                     height={68}
                     width={64}
@@ -28,8 +25,8 @@ const Card = () => {
                     <div className="text-[#BEFD4F]">Rs 1299</div>
                     <div className=" absolute bottom-0 right-0 h-fit w-fit">
                       <Image
-                        alt="h"
-                        src="/icons/plus.png"
+                        alt="plus"
+                        src="/icons/Plus.png"
                         height={30}
                         width={30}
                       />
